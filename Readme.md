@@ -27,8 +27,17 @@ Se nos listarán las siguientes opciones:
 
 `
 1. rake bin[arg1,arg2]  # Arrancar la aplicación desde consola: bin[nombre_usuario, numero_seguidores]
+`
+
+`
 2. rake html            # Crear y ver documentación html
+`
+
+`
 3. rake s               # Arrancar la aplicación web
+`
+
+`
 4. rake server          # Arrancar la aplicación web
 `
 

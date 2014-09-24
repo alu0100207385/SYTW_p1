@@ -11,7 +11,7 @@ Accedemos a Twitter en una aplicación Sinatra que muestre los amigos más popul
 
 1. Instalaremos las gemas necesarias: `bundle install`
 2. Configuraremos el fichero `configure.rb` siguiendo las directrices del fichero `configure.rb.example`
-Para más detalle [consultar](http://nereida.deioc.ull.es/~lpp/perlexamples/node39.html)
+Para más detalle [consultar](http://nereida.deioc.ull.es/~lpp/perlexamples/node39.html) .
 
 
 
@@ -26,7 +26,7 @@ $ rake -T
 Se nos listarán las siguientes opciones:
 
 `
-1. rake bin[arg1,arg2]  # Arrancar la aplicación desde consola
+1. rake bin[arg1,arg2]  # Ejecutar la aplicación desde consola
 `
 
 `

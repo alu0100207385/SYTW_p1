@@ -26,7 +26,7 @@ $ rake -T
 Se nos listarán las siguientes opciones:
 
 `
-1. rake bin[arg1,arg2]  # Arrancar la aplicación desde consola: bin[nombre_usuario, numero_seguidores]
+1. rake bin[arg1,arg2]  # Arrancar la aplicación desde consola
 `
 
 `
@@ -54,7 +54,7 @@ $ bin[nombre_usuario, numero_seguidores]
 
 Crea el archivo Readme.html y lo lanza al navegador por defecto.
 
-###3. rake s (=rake server)
+###3. rake (=rake server, =rake s)
 
 Arranca el servidor usando el puerto por defecto 4567. Accedemos a:
 

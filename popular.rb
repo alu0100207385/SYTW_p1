@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 require 'twitter'
-require 'sinatra'
+# require 'sinatra'
 require './configure'
 
 MAX = 10

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Sytw p1 by alu0100207385</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Sytw p1</h1>
+          <h2>Aplicación Web con Sinatra: Contar la Popularidad de Nuestros Amigos en Twitter</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/alu0100207385/SYTW_p1/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/alu0100207385/SYTW_p1/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/alu0100207385/SYTW_p1" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a name="sistemas-y-tecnolog%C3%ADas-web-ejemplo-de-oauth-twitter-rest-y-sinatra" class="anchor" href="#sistemas-y-tecnolog%C3%ADas-web-ejemplo-de-oauth-twitter-rest-y-sinatra"><span class="octicon octicon-link"></span></a>Sistemas y Tecnologías Web: Ejemplo de OAuth, Twitter, Rest y Sinatra</h1>
+
+<p><strong>Autor: Aarón Socas Gaspar</strong></p>
+
+<h2>
+<a name="descripci%C3%B3n" class="anchor" href="#descripci%C3%B3n"><span class="octicon octicon-link"></span></a>Descripción</h2>
+
+<p>Accedemos a Twitter en una aplicación Sinatra que muestre los amigos más populares de un usuario.</p>
+
+<h2>
+<a name="instalaci%C3%B3n" class="anchor" href="#instalaci%C3%B3n"><span class="octicon octicon-link"></span></a>Instalación</h2>
+
+<ol>
+<li>Instalaremos las gemas necesarias: <code>bundle install</code>
+</li>
+<li>Configuraremos el fichero <code>configure.rb</code> siguiendo las directrices del fichero <code>configure.rb.example</code>
+Para más detalle <a href="http://nereida.deioc.ull.es/%7Elpp/perlexamples/node39.html">consultar</a> .</li>
+</ol>
+
+<h2>
+<a name="ejecuci%C3%B3n" class="anchor" href="#ejecuci%C3%B3n"><span class="octicon octicon-link"></span></a>Ejecución</h2>
+
+<p>Para una gestión más sencilla de la aplicación podemos ver las opciones posibles con:</p>
+
+<p><code>
+$ rake -T
+</code></p>
+
+<p>Se nos listarán las siguientes opciones:</p>
+
+<p><code>
+1. rake bin[arg1,arg2]  # Ejecutar la aplicación desde consola
+</code></p>
+
+<p><code>
+2. rake html            # Crear y ver documentación html
+</code></p>
+
+<p><code>
+3. rake s               # Arrancar la aplicación web
+</code></p>
+
+<p><code>
+4. rake server          # Arrancar la aplicación web
+</code></p>
+
+<h3>
+<a name="1-rake-bin" class="anchor" href="#1-rake-bin"><span class="octicon octicon-link"></span></a>1. rake bin</h3>
+
+<p>Nos permite ejecutar el programa desde consola. Puede usarse sin argumentos, por defecto utiliza como 
+nombre de usuario "AaronSocas" y como número amigos 3. Para usar argumentos:</p>
+
+<p><code>
+$ bin[nombre_usuario, numero_seguidores]
+</code></p>
+
+<h3>
+<a name="2-rake-html" class="anchor" href="#2-rake-html"><span class="octicon octicon-link"></span></a>2. rake html</h3>
+
+<p>Crea el archivo Readme.html y lo lanza al navegador por defecto.</p>
+
+<h3>
+<a name="3-rake-rake-server-rake-s" class="anchor" href="#3-rake-rake-server-rake-s"><span class="octicon octicon-link"></span></a>3. rake (=rake server, =rake s)</h3>
+
+<p>Arranca el servidor usando el puerto por defecto 4567. Accedemos a:</p>
+
+<p><code>
+http://localhost:4567/
+</code></p>
+
+<p>Y rellenamos los campos. Una vez terminado Ctrl+C para detener el servidor.</p>
+
+<h2>
+<a name="recursos" class="anchor" href="#recursos"><span class="octicon octicon-link"></span></a>Recursos</h2>
+
+<ul>
+<li>Campus virtual de la asignatura</li>
+<li><a href="http://ruby-doc.org/">http://ruby-doc.org/</a></li>
+<li><a href="http://sferik.github.io/twitter/">http://sferik.github.io/twitter/</a></li>
+<li><a href="https://rubygems.org/gems/sinatra">https://rubygems.org/gems/sinatra</a></li>
+<li><a href="https://github.com/crguezl/rack-last-twits/tree/sinatra">https://github.com/crguezl/rack-last-twits/tree/sinatra</a></li>
+<li><a href="https://dev.twitter.com/rest/public/rate-limiting">https://dev.twitter.com/rest/public/rate-limiting</a></li>
+<li><a href="https://dev.twitter.com/oauth">https://dev.twitter.com/oauth</a></li>
+</ul>
+
+<p><em>Aarón Socas Gaspar - Sistemas y Tecnologías Web (Curso 2014-2015)</em></p>
+        </section>
+
+        <footer>
+          Sytw p1 is maintained by <a href="https://github.com/alu0100207385">alu0100207385</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
